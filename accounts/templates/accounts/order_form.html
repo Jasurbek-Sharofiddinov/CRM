@@ -1,16 +1,31 @@
-{% extends 'accounts/main.html' %}
+{%  extends 'accounts/main.html' %}
 {% load static %}
 {% block content %}
 
+
 <div class="row">
-    <div class="col-md-6">
-        <div class="card card-body">
-            <form action="" method="POST">
-                {% csrf_token %}
-                {{form}}
-                <input type="submit" name="Submit">
-            </form>
-        </div>
-    </div>
+	<div class="col-md-6">
+		<div class="card card-body">
+
+			<form action="" method="POST">
+				{% csrf_token %}
+<!--				{{ form.management_form }}-->
+<!--				{% for field in form %}-->
+<!--					{{field}}-->
+<!--					<hr>-->
+<!--				{% endfor %}-->
+                <h4>Choose customer</h4>      {{form.customer}}<hr>
+                <h4>Choose product</h4>       {{form.product}}<hr>
+                <h4>Status:</h4>              {{form.status}}<hr>
+                <h4>Note for the product:</h4>{{form.note}}
+                <hr>
+
+				<input type="submit" name="Submit">
+			</form>
+
+		</div>
+	</div>
 </div>
+
+
 {% endblock %}

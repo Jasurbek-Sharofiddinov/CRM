@@ -8,6 +8,9 @@ django = "*"
 django-filter = "*"
 pillow = "*"
 gunicorn = "*"
+environs = {version = "==8.0.0", extras = ["django"]}
+whitenoise = "==5.3.0"
+mysqlclient = "*"
 
 [dev-packages]
 
