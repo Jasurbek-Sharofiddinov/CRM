@@ -1,5 +1,7 @@
 # CRM
  This will be Customer Relationship management
+ ## Frontend - Html,Bootstrap
+ ## Backend  - Python,Django
 
 ### You can download and install required packages
 
