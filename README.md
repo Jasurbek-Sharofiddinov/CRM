@@ -10,7 +10,7 @@
         pipenv install pillow
         pipenv install whitenoise
         
-### Let's go!
+### Let's go!!!
 
 [Register page](https://jsfiddle.net/ivanov11/hzf0jxLg/) template|[Login page](https://jsfiddle.net/ivanov11/dghm5cu7/) template
 -------------------------------------------------------------------------------------------------------|-----------------------------
